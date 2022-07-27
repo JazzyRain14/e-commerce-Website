@@ -64,3 +64,4 @@ node_modules/
 
 # dotenv environment variables file
 .env
+/bootstrap-5.2.0-beta1-dist

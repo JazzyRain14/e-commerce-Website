@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ADF6D8;
+} */
+ /* body .containe{
+    border: thin solid;
+    height: 70%;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    border-left: 0;
+    top: 12%;
+    background: white;
+ }
+ .left-container{
+    position:absolute;
+    left: 0;
+    height:58ex;
+    top: -15px;
+    /* border: thin solid; */
+    /* width: 45%; */
+    /* border-radius: 0 0 20%; */
+    /* clip-path: polygon(0% 0%, 91% 0%, 100% 49%, 92% 100%, 0% 100%); */
+    /* background-color: #26C486; */
+    /* border-radius: 10px; */
+ /* } */
+ .hero{
+    height: 100vh;
+    width: 100%;
+    border: thin solid;
+    background-image:url(/public/Images/digital-marketing-illustration-of-shopping-online-on-website-mobile-phone-use-as-background-business-technology-e-commerce-delivery-service-free-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+ .hero::before{
+    content:"";
+    height: 100vh;
+    width: 100%;
+    border: thin solid;
+    background:rgba(0,0,0,0.4);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+ }
+ .form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(0,0,0,0.4);
+    padding: 5px;
+    overflow: hidden;
+ }
+ .button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+}
+.toogle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#A5CFDD,#BFA9CF,#d783b5);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    position: absolute;
+    top: 180px;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1-x solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#A5CFDD,#BFA9CF,#d783b5);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+#login{
+    position: absolute;
+    left: 50px;
+}
+#signup{
+    position: absolute;
+    left: 450px;
+}
